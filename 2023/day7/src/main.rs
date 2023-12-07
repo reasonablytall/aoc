@@ -99,5 +99,5 @@ fn main() {
     for i in 1..hands.len() + 1 {
         result2 += hands[i - 1].bet * i as u64;
     }
-    println!("Part 1: {}", result1);
+    println!("Part 1: {}", result2);
 }
